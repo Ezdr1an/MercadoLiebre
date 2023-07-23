@@ -3,6 +3,13 @@
     width: 100%;
     margin: 0;
 }
+nav i {
+    color: var(--Azul);
+}
+a {
+    text-decoration: none;
+    color: var(--Azul);
+}
 /* HEADER */
 .register_header {
     background-color: #EAC926;

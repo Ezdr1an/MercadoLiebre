@@ -11,7 +11,13 @@
     color: var(--GrisOscuro);
     margin: 0 auto;
 }
-
+nav i {
+    color: var(--Azul);
+}
+a {
+    text-decoration: none;
+    color: var(--Azul);
+}
 .precio {
     font-size: 18px;
     margin: 5px;
