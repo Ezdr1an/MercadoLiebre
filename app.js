@@ -19,10 +19,10 @@ app.get('/vender',(req,res) => {
 app.get('/ayuda',(req,res) => {
     res.sendFile(path.join(__dirname,"views","ayuda.html"))
 });
-app.get('/cuenta',(req,res) => {
-    res.sendFile(path.join(__dirname,"views","crear-cuenta.html"))
+app.get('/registro',(req,res) => {
+    res.sendFile(path.join(__dirname,"views","registro.html"))
 });
-app.get('/ingresar',(req,res) => {
+app.get('/login',(req,res) => {
     res.sendFile(path.join(__dirname,"views","login.html"))
 });
 app.get('/miscompras',(req,res) => {

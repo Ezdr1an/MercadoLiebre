@@ -1,0 +1,344 @@
+/* //////////////////////////////BODY /////////////////////////////////////////*/
+.home__body {
+    width: 100;
+    margin: 0;
+    background-color: var(--GrisClaro);
+}
+
+/* TIPOGRAFIA */
+.titulares {
+    font-size: 24px;
+    color: var(--GrisOscuro);
+    margin: 0 auto;
+}
+nav i {
+    color: var(--Azul);
+}
+a {
+    text-decoration: none;
+    color: var(--Azul);
+}
+.precio {
+    font-size: 18px;
+    margin: 5px;
+}
+
+.descuento {
+    color: var(--Verde);
+}
+
+.descripcion {
+    display: none;
+    font-size: 16px;
+    color: #666;
+}
+
+.text {
+    font-size: 12px;
+    color: var(--GrisOscuro);
+}
+
+/* /////////////////////////////HEADER //////////////////////////////////////*/
+.home_header {
+    background-color: var(--Amarillo);
+    width: 100%;
+}
+
+.section_header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+/* logo */
+.logo-mercado-liebre {
+    width: 50%;
+}
+
+.logo-mercado-liebre img {
+    width: 100%;
+    height: 70%;
+}
+
+/* search-bar */
+.search_bar {
+    width: 50%;
+    padding-top: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.search_bar input {
+    width: 50%;
+    border-radius: 5px;
+}
+
+.search_icon {
+   /*  color: #19191952;
+    position: absolute;
+    width: 20px;
+    height: 10px;
+    right: 1px;
+    top: 3px; */
+}
+
+/*  */
+.header_frase {
+    text-align: center;
+}
+
+.burger-menu {
+    text-align: center;
+}
+
+.burger-menu i {
+    padding-top: 5px;
+    width: 35px;
+    height: 25px;
+    color: white;
+    background-color: var(--Celeste);
+    border-radius: 5px;
+    size: 2em;
+    margin-bottom: 10px;
+}
+
+.home_banner {
+    background-color: var(--GrisClaro);
+}
+
+.home_banner img {
+    width: 100%;
+    height: 10%;
+}
+
+/*//////////////////////////// MAIN /////////////////////////////// */
+.home_main {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.home-main-section {
+    justify-content: center;
+    text-align: center;
+}
+
+.home-main-section-product {
+    margin: 10px;
+    padding: 15px;
+    border-top: solid 1px var(--GrisClaro);
+    background-color: white;
+}
+
+.home-main-section-img img {
+    height: 100px;
+    width: 100px;
+}
+
+.article-product {
+    /* border-top: solid 1px var(--GrisClaro);
+    background-color: white;
+    display: inline-block;
+    width: 800px; */
+}
+
+.home-main-section-product i {
+    display: inline-block;
+    color: var(--Verde);
+    border: solid 1px var(--Verde);
+    border-radius: 70%;
+    size: 2em;
+    padding: 5px;
+}
+
+/*//////////////////////// FOOTER//////////////////////////// */
+.home-footer {
+    background-color: var(--GrisClaro);
+    text-align: center;
+}
+
+.footer-icono {
+    color: var(--Celeste);
+    font-size: xx-large;
+}
+
+/*///////////////////////// MEDIA ///////////////*/
+@media (max-width: 768px) {
+
+    .search_bar {
+        width: 50%;
+        padding-top: 20px;
+        /* text-align: center; */
+        position: relative;
+    }
+    .search_bar input{
+        width: 85%;
+    }
+    .search_icon {
+        /* color: #19191952;
+        position: relative;
+        width: 20px;
+        height: 10px;
+        left: 173px;
+         */
+    }
+    .home_nav-menu ul {
+        display: none;
+    }
+
+    .descripcion {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+    .logo-mercado-liebre{
+        width: 30%;
+        padding-top: 15px;
+    }
+    .search_bar{
+        width: 35%;
+        padding-top: 30px;
+    }
+    .search_bar input{
+        width: 80%;
+        align-self: center;
+    }
+    .search_icon {
+        /* color: #19191952;
+        position: absolute;
+        width: 20px;
+        height: 10px;
+        right: 100px;
+        top: 31px; */
+    }
+    
+    .header_frase{
+        width: 30%;
+        padding-top: 10px;
+    }
+    .home-main-section {
+        display: flex;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .home-main-section-product {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .home_nav-menu {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav_menu_1 {
+        display: flex;
+        list-style: none;
+    }
+
+    .nav_menu_2 {
+        display: flex;
+        list-style: none;
+        padding-right: 40px;
+    }
+
+    .nav_menu_1 li {
+        margin: 10px;
+    }
+
+    .nav_menu_2 li {
+        margin: 10px;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    .home-main-section-img img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .article-product {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box
+    }
+
+    .home-main-section-product i {
+        display: block;
+        font-size: 16px;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid var(--Verde);
+        background-color: #FFF;
+        border-radius: 50%;
+        position: relative;
+        right: 10px;
+        top: -15px;
+    }
+}
+
+@media (max-width: 1279px){
+    .search_icon {
+    /*     color: #19191952;
+        position: absolute;
+        width: 20px;
+        height: 10px;
+        right: 60px;
+        top: 32px; */
+    }
+    .home-main-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .home-main-section-img img {
+        height: 250px;
+        width: 250px;
+    }
+}
+/* //////MALDITO ICONO DE LUPA ////////////////////*/
+/* /////////MOBILE/////////////////// */
+@media (max-width: 428),(max-height: 926px){
+    .search_bar input{
+        width: 80%;
+        align-self: center;
+    }
+    .search_icon i{
+        color: #19191952;
+        position: relative;
+        width: 10px;
+        height: 10px;
+        right: 4%;
+        top: 2%;
+    }
+}
+/*/////////////////////// TABLET */
+@media (min-height: 765px),(max-height: 1280px),(min-width: 1104px),(max-width: 1279px){
+    .search_icon {
+        color: #19191952;
+        position: relative;
+        width: 20px;
+        height: 10px;
+        right: 8%;
+        top: 2%;
+    }
+}
+/* ///////////////////DESKOP */
+@media (min-width: 1280px)/* , (min-height:800px) */{
+    .search_icon {
+        color: #19191952;
+        position: relative;
+        width: 20px;
+        height: 10px;
+        right: 5%;
+        top: 1%;
+    }
+}

@@ -1,0 +1,178 @@
+.register_body {
+    background-color: #ebebeb;
+    width: 100%;
+    margin: 0;
+}
+nav i {
+    color: var(--Azul);
+}
+a {
+    text-decoration: none;
+    color: var(--Azul);
+}
+/* HEADER */
+.register_header {
+    background-color: #EAC926;
+}
+
+.register_body_h2 {
+    margin-left: 15px;
+}
+
+.search_bar {
+    position: relative;
+    width: 270px;
+    margin-left: 15px;
+}
+
+.search_bar_input {
+    width: 100%;
+}
+
+.search_icon {
+    color: #19191952;
+    position: absolute;
+    width: 20px;
+    height: 15px;
+    right: 5px;
+    bottom: 3px;
+}
+
+/* MAIN */
+.register_body_main {
+    width: 100%;
+}
+
+div.logo-mercado-liebre {
+    background-color: #EAC926;
+}
+
+div.logo-mercado-liebre img {
+    display: inline-block;
+    height: 40px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+section.form {
+    width: 100%;
+    background-color: #ebebeb;
+}
+
+ul.categ_int_list {
+    list-style: none;
+}
+
+div.datos_personales {
+    margin: 15px;
+}
+
+.perfil_usuario p {
+    margin-left: 15px;
+}
+
+.user_picture {
+    margin-left: 15px;
+}
+
+.finish_form {
+    display: flex;
+    margin: 20px;
+    width: 100%;
+    justify-content: space-around
+}
+
+.finish_form a {
+    border-radius: 5px;
+
+}
+
+.finish_form_button {
+    background-color: #1259c3;
+    color: white;
+    border-radius: 5px;
+}
+
+.delete_data {
+    background-color: #1259c3;
+    color: white;
+}
+
+input {
+    border-radius: 5px;
+}
+/* FOOTER */
+.register_footer{
+    background-color: #ebebeb;
+    text-align: center;
+}
+.footer-icono {
+    color: #1259c3;
+    font-size: xx-large;
+}
+/* //////////////////////////////// */
+@media (min-width: 769px) {
+    .search_bar_section{
+        display: flex;
+        width: 40%;
+    }
+    .search_bar{
+        display: flex;
+        width: 365px;
+        margin-left: 30px;
+    }
+ h4.h4{
+    display: inline-block;
+    position: absolute;
+    right: 100px;
+    top: 65px;
+ }
+    .register-header-nav-menu {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav_menu_1 {
+        display: flex;
+        list-style: none;
+    }
+
+    .nav_menu_2 {
+        display: flex;
+        list-style: none;
+        padding-right: 40px;
+    }
+
+    .nav_menu_1 li {
+        margin: 10px;
+    }
+
+    .nav_menu_2 li {
+        margin: 10px;
+    }
+    .datos_personales input{
+        width: 45%;
+        margin-left: 80px;
+    }
+    p{
+        margin-left: 80px;
+    }
+    section.perfil_usuario{
+        margin-left: 80px;
+    }
+    section.categ_int {
+        margin-left: 80px;
+    }
+    .user_picture {
+        margin-left: 80px;
+    }
+    .finish_form_button {
+        width: 300px;
+    }
+    
+    .delete_data {
+        width: 300px;
+    }
+}
+
