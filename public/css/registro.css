@@ -170,9 +170,17 @@ input {
     .finish_form_button {
         width: 300px;
     }
-    
+    .finish_form_button:hover{
+        background-color: var(--Azul);
+    }
     .delete_data {
         width: 300px;
+    }
+    .delete_data:hover{
+        background-color: var(--Azul);
+    }
+    .register-footer-article i:hover{
+        color: #03264C;
     }
 }
 

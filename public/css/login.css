@@ -139,10 +139,17 @@ h2{
         width: 50%;
         
     }
-    div.logo-mercado-liebre img{
+    /* div.logo-mercado-liebre img{
         width: 100%;
+    } */
+    .logo-mercado-liebre {
+        width: 50%;
     }
-
+    
+    .logo-mercado-liebre img {
+        width: 100%;
+        height: 70%;
+    }
     div.search_bar{
         display: inline-block;
         width: 35%;
@@ -175,5 +182,30 @@ h2{
 
     .nav_menu_2 li {
         margin: 10px;
+    }
+    .user_name input{
+        width: 30%;
+    }
+    .user_password input{
+        width: 30%;
+    }
+    .login__buton input{
+        width: 30%;
+    }
+    .login__buton input:hover{
+        background-color: #0022AA;
+    }
+    .login_footer{
+        margin-top: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 100px;
+    }
+    .register-footer-article{
+        width: 30%;
+        justify-content: space-between
+    }
+    .register-footer-article i:hover{
+        color: #03264C;
     }
 }
